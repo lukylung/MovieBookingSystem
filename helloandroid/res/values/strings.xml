@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">约电影</string>
+    <string name="button_send">提交</string>
+    <string name="default_message"></string>
+    <string name="interact_message">账号不能为空</string>
+    <string name="interact_message2">密码不能为空</string>
+    <string name="interact_message3">请再次输入密码</string>
+    <string name="interact_message4">两次输入密码不一致</string>
+    <string name="interact_message5">手机号码不能为空</string>
+    <string name="interact_message6">密码长度应不小于六位</string>
+    <string name="interact_message7">用户名长度应不小于五位</string>
+    <string name="interact_message8">请输入正确的手机号</string>
+    <string name="interact_message9">用户名仅能英文字符或数字</string>
+    <string name="interact_message10">密码仅能英文字符或数字</string>
+    <string name="back">返回</string>
+    <string name="login_in">登录</string>
+    <string name="account">账号</string>
+     <string name="pwd">密码</string>
+     <string name="pwd_again">再输入一次密码</string>
+     <string name="phone_num">手机</string>
+     <string name="phone_num2">手机号码</string>
+</resources>

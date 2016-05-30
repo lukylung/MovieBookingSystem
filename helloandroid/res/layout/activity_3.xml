@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#00BFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_to_register"
+            android:layout_width="65.83dp"
+            android:layout_height="30.5dp"
+            android:layout_marginLeft="10dp"
+            android:background="#AFEEEE"
+            android:text="注册"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_friend_title"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/main_to_login"
+            android:layout_width="65.83dp"
+            android:layout_height="30.5dp"
+            android:layout_marginRight="10dp"
+            android:background="#AFEEEE"
+            android:text="登录"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+	<GridView 
+		android:id="@+id/movie_table"
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:orientation="vertical" >
+    </GridView>
+    
+
+</LinearLayout>
